@@ -26,8 +26,8 @@ public class ExceptionExample {
 
     public static Exception methodB(){
         Exception e = new Exception("Oops! I goofed.");
-        return e; //An error happened.
-        // return null; //No error happened.
+        //return e; //An error happened.
+        return null; //No error happened.
     }//methodB
 
 }//ExceptionExample
